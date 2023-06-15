@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.card-product {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 350px;
+    margin: auto;
+    font-family: arial;
+    padding: 20px;
+}
+
+.card-head {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.card-name {
+    margin-left: 20px;
+    margin-right: 50px;
+    text-align: none;
+}
+
+.mmddyy{
+    color: rgb(131, 131, 131);
+}
+
+.card-head > img {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.card-head > i {
+    margin-left: 40px;
+    margin-top: 8px;
+}
+
+
+
+.card-product > img {
+    margin-left: -20px;
+}
+
+.card-product > p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.icon {
+    display: flex;
+    text-align: center;
+}
+
+.icon > i {
+    margin: 5px;
+    margin-right: 10px;
+}
+
+#right-icon{
+    margin-left: 280px;
+}
